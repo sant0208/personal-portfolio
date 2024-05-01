@@ -6,7 +6,7 @@ const Hero = () => {
     <section className='relative w-full h-screen  bg-black drop-shadow-xl text-white flex  items-center justify-center leading-10 scroll-container'>
       <Spot className='sm:block hidden'/>
       <div className=' text-white font-serif text-center flex justify-center align-center  text-4xl sm:text-6xl'>
-        <p>Hello!<br/>I'm <span className='glowing-txt'>G</span> C<br/><span className='glowing-txt'>S</span>ant<span className='glowing-txt'>h</span>osh<br/><span className='text-[10px] sm:text-xs gap-2'>F<span className='glowing-txt'>U</span>LLSTACK <span className='glowing-txt'>DEVELOPER</span></span></p>
+        <p>Hel!<br/>I'm <span className='glowing-txt'>G</span> C<br/><span className='glowing-txt'>S</span>ant<span className='glowing-txt'>h</span>osh<br/><span className='text-[10px] sm:text-xs gap-2'>F<span className='glowing-txt'>U</span>LLSTACK <span className='glowing-txt'>DEVELOPER</span></span></p>
       </div>
       <a href="https://github.com/sant0208" className="absolute bottom-20 item-center sm:bottom-10"><button
             type="button"
