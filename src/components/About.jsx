@@ -4,6 +4,7 @@ import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 import { SANTHOSH } from "../assets";
+import {Santhosh_resume} from "../assets";
 import { Tilt } from "react-tilt";
 import { services } from "../constants";
 
@@ -57,7 +58,7 @@ const About = () => {
         real-world problems.
       </motion.p>
       <div className="w-full h-2 mt-5 mb-5">
-        <a href={SANTHOSH} className="top-[120px]"><button
+        <a href={Santhosh_resume} className="top-[120px]"><button
             type="button"
             className="inline-block rounded-full border-2 border-primary-800 px-6 pb-[6px] pt-2 text-xs font-medium uppercase leading-normal text-primary-700 transition duration-150 ease-in-out hover:border-primary-accent-100 hover:bg-neutral-600  hover:bg-opacity-10 focus:border-primary-accent-100 focus:outline-none focus:ring-0 active:border-primary-accent-200 dark:text-primary-100 dark:hover:bg-neutral-100 dark:hover:bg-opacity-10"
           >
